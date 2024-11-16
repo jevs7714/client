@@ -26,6 +26,8 @@ $client-theme: mat.define-theme((
 // that you are using.
 :root {
   @include mat.all-component-themes($client-theme);
+  --mdc-outlined-card-container-shape: 0px;
+  --mdc-text-button-container-shape: 0px;
 }
 
 // Comment out the line below if you want to use the pre-defined typography utility classes.
